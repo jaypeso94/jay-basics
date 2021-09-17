@@ -1,0 +1,9 @@
+Numero = [2, 0, 1, 3, 7, 4, 6, 9, 8]
+
+for i in range(len(Numero)):
+	for j in range(i + 1, len(Numero)):
+
+		if Numero[i] > Numero[j]:
+			Numero[i], Numero[j] = Numero[j], Numero[i]
+
+print(Numero)
